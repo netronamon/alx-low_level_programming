@@ -5,7 +5,6 @@
 /**
  * print_alphabet - prints the alphabet in lowercase, followed by a new line.
  */
-#include "main.h"
 void print_alphabet(void)
 {
 	char letter;
