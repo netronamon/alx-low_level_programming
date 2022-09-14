@@ -5,6 +5,7 @@
 /**
  * print_alphabet - prints the alphabet in lowercase, followed by a new line.
  */
+#include "holberton.h"
 void print_alphabet(void)
 {
 	char letter;
