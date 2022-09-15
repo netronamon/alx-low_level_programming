@@ -3,11 +3,11 @@
 /**
  * _putchar - writes the character c to stdout
  * @c: The character to print
- *
+ *author:amon
  * Return o 
  * prints _putchar
  */
-int main()
+int main(void)
 {
 putchar('_');
 putchar('p');
