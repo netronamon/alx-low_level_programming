@@ -2,9 +2,9 @@
 #include <stdlib.h>
 /**
  * _putchar - writes the character c to stdout
- * @c: The character to print
+ * main: has the codeand prints _putchar
  *author:amon
- * Return o 
+ *return: returns 0
  * prints _putchar
  */
 int main(void)
