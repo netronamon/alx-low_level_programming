@@ -1,11 +1,10 @@
 /**
- * file 0-reset_to_98
+ * file:0-reset_to_98
  * author:amon
  */
 #include "main.h"
 /**
- * reset_to_98 takes a pointer to int and changes its value
- *             to 98. 
+ * reset_to_98 -takes a pointer to int and changes its value to 98. 
  * @n pointer to an int
  */
 void reset_to_98(int *n)
