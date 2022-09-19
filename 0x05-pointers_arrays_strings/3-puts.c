@@ -1,6 +1,6 @@
 /*
  * File: 3-puts.c
- * Author:amon
+ * Author: amon
  */
 
 #include "main.h"
