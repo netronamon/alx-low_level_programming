@@ -15,14 +15,13 @@ int i=0;
 int counter;
 while (*s != '\0')
 {
-s++;
 i++;
-}
 s++;
-for (counter=i-1;counter >= 0;counter--)
+}
+for (counter=i;counter >= 0;counter--)
 {
 printf("%c", *s);
-s-=1;
+s--;
 }
 printf("\n");
 }
