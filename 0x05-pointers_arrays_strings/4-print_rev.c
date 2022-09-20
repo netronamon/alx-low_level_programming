@@ -18,7 +18,7 @@ while (*s != '\0')
 s++;
 i++;
 }
-for (counter=i;counter > 0;counter--)
+for (counter=i-1;counter >= 0;counter--)
 {
 printf("%c", *s);
 s-=1;
