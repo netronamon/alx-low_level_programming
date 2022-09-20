@@ -1,19 +1,20 @@
-/**
- * file:2-strlen.c
- * author:amon
- *
- */ 
-#include"main.h"
 /*
- *_strlen - returns length of a string
- *@s:the pointer to string
- *
- * Return:returns length of string
+ * File: 2-strlen.c
+ * Auth: amon
  */
-int _strlen(char *s)
+
+#include "main.h"
+
+/**
+ * _strlen - Returns the length of a string.
+ * @s: The string to get the length of.
+ *
+ * Return: The length of @s.
+ */
+int _strlen( char *s)
 {
 int i=0;
-while(*s!='\0')
+while( *s!='\0')
 {
 i++;
 s++;
