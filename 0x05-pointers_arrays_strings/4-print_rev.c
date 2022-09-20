@@ -12,21 +12,16 @@
 void print_rev(char *s)
 {
 int i=0;
+int counter;
 while (*s != '\0')
 {
+s++;
 i++;
-s++;
 }
-s-=i;
-char str[i];
-while (*s != '\0')
+for (int counter = i;counter >= 0;counter--)
 {
-str[i] = *s;
-s++;
-i--;
+printf("%c", *s);
+s-=1;
 }
-for(i=0;i<strlen(str);i++)
-{
-printf("%c",str[i]);
-}
+printf("\n");
 }
