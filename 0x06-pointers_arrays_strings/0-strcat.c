@@ -19,6 +19,7 @@ char *_strcat(char *dest, char *src)
 
 	while (dest[index++] != '\0')
 		dest_len++;
+	dest[dest_len+1] = " ";
 
 	for (index = 0; src[index]; index++)
 		dest[dest_len++] = src[index];
