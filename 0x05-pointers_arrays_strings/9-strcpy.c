@@ -23,7 +23,7 @@ char *_strcpy(char *dest, char *src)
 		index++;
 	}
 	index++;
-	dest[index] = scr[index];
+	dest[index] = src[index];
 
 	return (dest);
 }
