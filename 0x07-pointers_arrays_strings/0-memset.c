@@ -16,13 +16,13 @@
  */
 char  *_memset(char *s, char b, unsigned int n)
 {
-char **memory,**r;
+char *memory, *r;
 memory=s;
 r=s;
 for (int a = 0 ; a < n ; a++)
 {
-**memory=b;
-*memory++;
+*memory=b;
+memory++;
 }
 return(r);
 }
