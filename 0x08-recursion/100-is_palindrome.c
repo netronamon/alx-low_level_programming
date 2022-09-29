@@ -1,5 +1,5 @@
 /*
- * File: 7-is_palindrome.c
+ * File: 100-is_palindrome.c
  * Author:amon
  */
 
