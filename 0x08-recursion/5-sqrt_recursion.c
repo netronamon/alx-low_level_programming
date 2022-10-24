@@ -1,4 +1,3 @@
-
 /*
  * File: 5-sqrt_recursion.c
  * Author:amon
