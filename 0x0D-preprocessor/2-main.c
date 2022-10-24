@@ -1,12 +1,12 @@
-/* 
+#include <stdio.h>
+/*
  * file:2-main.c
  * author:amon
- * Desc: program that prints the name of the file it is compiled from
+ * Desc: program that prints the name of the file it is being compiled from
  *
  */
-int main( void )
+int main (void )
 {
-	printf(" %s \n ", __FILE__);
-printf(" \n ");
-return(0);
-}	
+	printf("%s\n", __FILE__);
+	return(0);
+}
