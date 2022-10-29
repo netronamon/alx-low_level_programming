@@ -1,3 +1,6 @@
+#ifndef DOG_H
+#define DOG_H
+
 /**
  *
  * struct dog- has three elements
@@ -7,8 +10,12 @@
  *
  * Description: gets the three and prints them through main
  */
-struct dog{
+struct dog
+{
+
 	char *name;
 	char *owner;
 	float age;
 };
+
+#endif 
