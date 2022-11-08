@@ -1,22 +1,21 @@
 /*
- * file:5-free_dog.c
- * author:amon
- *
+ * File: 5-free_dog.c
+ * Author:amon
  */
 
-#include <stdio.h>
 #include "dog.h"
+#include <stdlib.h>
 
 /**
- * free_dog - Frees dogs
- * @d: the dog to be freed
+ * free_dog - Frees dogs.
+ * @d: The dog to be freed.
  */
-
 void free_dog(dog_t *d)
 {
-	if(d == NULL)
-return;
-	free(d->name);
+	if (d == NULL)
+		return;
+
 	free(d->owner);
+	free(d->name);
 	free(d);
 }
